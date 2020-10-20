@@ -1,92 +1,34 @@
-<!DOCTYPE html>
-<html lang="fr-FR">
+<?php
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+// Model Identitys 
+ require ('model/Identity.php');     
+ $identity = getIdentitys();
 
-  <title>développeur web sébastien girard</title>
-  <meta content="site développeur web  girard sébastien" name="description">
-  <meta content="" name="keywords">
+  // <!-- Header Section -->
+  require ('view/header.php'); 
+      
+  // <!-- ======= Hero Section ======= -->
+  require ('view/hero.php'); 
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  // <!-- ======= About Section ======= -->
+  require ('view/about.php'); 
 
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
+  // <!-- ======= Facts Section ======= -->
+  require ('view/facts.php'); 
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  // <!-- ======= Resume Section ======= -->
+  require ('view/resume.php'); 
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  // <!-- ======= Services Section ======= -->
+  require ('view/services.php'); 
 
-  <!-- Template body CSS File -->
-  <link href="styles.css" rel="stylesheet">
-</head>
+  // <!-- ======= Portfolio Section ======= -->
+  require ('view/portfolio.php'); 
 
-<body>
+  // <!-- ======= Contact Section ======= -->
+   require ('view/contact.php');
 
-  <!-- ======= Mobile nav toggle button ======= -->
-  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+  // <!-- ======= Footer ======= -->
+   require ('view/footer.php'); 
 
-  <!-- Header Section -->
-  <?php require ('view/header.php'); ?>
-
-  <!-- ======= Hero Section ======= -->
-  <?php require ('view/hero.php'); ?>
-
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <?php require ('view/about.php'); ?>
-
-    <!-- ======= Facts Section ======= -->
-    <?php require ('view/facts.php'); ?>
-
-    <!-- ======= Resume Section ======= -->
-     <?php require ('view/resume.php'); ?>
-
-    <!-- ======= Services Section ======= -->
-    <?php require ('view/services.php'); ?>
-
-    <!-- ======= Portfolio Section ======= -->
-    <?php require ('view/portfolio.php'); ?>
-
-    <!-- ======= Contact Section ======= -->
-    <?php require ('view/contact.php'); ?>
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <?php require ('view/footer.php'); ?>
-
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/counterup.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
-</html>
+  // Database::disconnect();

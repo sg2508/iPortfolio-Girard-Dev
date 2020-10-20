@@ -11,7 +11,7 @@
               href="https://openclassrooms.com/fr/paths/59-developpeur-dapplication-php-symfony" target="blanck"
               title="Voir le détailde la formation">OpenClassRooms</a>, au rythme d’un jour en formation et
             quatre jours en entreprise, pour une durée de 12 ou 24 mois.<br>
-            A l’issue de ce parcours j’obtiendrais un diplôme de niveau II (Bac +3/4).
+            A l’issue de ce parcours j’obtiendrais un diplôme de niveau 6 (Bac +3).
             Le choix de ma formation est dans la continuité de mes premières expériences.
             Elle me permettra de parfaire mes connaissances, de me professionnaliser, tout en continuant
             d’expérimenter le monde de l’entreprise, en me mettant à son service.</p>
@@ -63,12 +63,12 @@
           </div>
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">CSTB</h3>
+            <h3 class="resume-title">Expériences en entreprises</h3>
             <div class="resume-item">
               <h4>Chargé de projet base de données</h4>
               <h5>11/03/2019 – 04/09/2020</h5>
               <p><em><a href="http://www.cstb.fr/fr/cstb/etablissements/marne-la-vallee/" target="blanck"
-                    title="Voir le site CSTB">Site CSTB</a></em></p>
+                    title="Voir le site CSTB">CSTB - 77420</a></em></p>
               <ul>
                 <li>Récupérer des indicateurs (datas) sur une BDD MS Access existante et mettre en place un tableau de
                   bord.</li>
@@ -95,7 +95,7 @@
               <h4>Développeur web</h4>
               <h5> 01/11/2018 – 31/12/2018</h5>
               <p><em><a href="https://graphikchannel.fr/societe/" target="blanck"
-                    title="Voir le site Graphik-Channel">Graphik-Channel</a></em></p>
+                    title="Voir le site Graphik-Channel">Graphik-Channel - 75020</a></em></p>
               <ul>
                 <li>Veille informationnelle sur jMerise / SQL et réalisation de template HTML / CSS sous la forme d’un
                   tuto.
